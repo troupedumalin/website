@@ -1,0 +1,82 @@
+
+ /*--------------------------*\
+|      Grille des joueurs      |
+ \*--------------------------*/
+
+#damier h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#damier > div {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+}
+
+.joueur > img, .joueur, .nom {
+    width: 150px;
+    height: 150px;
+}
+
+.joueur {
+	position: relative;
+	margin: 2px;
+}
+
+.joueur:hover .nom {
+	visibility: visible;
+	opacity: 1;
+}
+
+.nom {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	background: rgba(226, 62, 2, 0.5);
+	color: #fff;
+
+	transition: opacity .3s, visibility .3s;
+	visibility: hidden;
+	opacity: 0;
+
+	text-align: center;
+	display: block;
+}
+
+.nom p {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+i {
+	font-size: 15px;
+}
+
+#coach {
+	width: 50%;
+	height: 50%;
+	padding-top: 4%;
+}
+
+#president {
+	padding-top: 10%;
+    padding-left: 10px;
+	width: 35%;
+	height: 35%;
+}
+
+/* Responsivité */
+
+@media screen and (max-width: 710px) {
+    #damier > div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

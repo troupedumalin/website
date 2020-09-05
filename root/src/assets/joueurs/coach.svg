@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    version="1.1"
+    id="Metal_Whistle"
+    x="0px"
+    y="0px"
+    width="800px"
+    height="800px"
+    viewBox="0 0 800 800"
+    enable-background="new 0 0 800 800"
+    xml:space="preserve"
+  >
+<g
+    >
+	<path
+        fill="#1F1A17"
+        d="M509.068,368.277l-124.171-124.17c-17.545,35.092-24.293,44.539-53.985,29.693l122.818,127.59   C468.576,411.467,480.727,429.012,509.068,368.277z"
+    />
+	<path
+        fill="#A6A5A5"
+        d="M330.912,273.801l-226.23,193L212.141,601.77l241.59-200.379L330.912,273.801z M228.925,546.486   c-1.595,1.383-3.457,2.242-5.387,2.637c-0.787,0.162-1.582,0.266-2.379,0.266c-3.316,0-6.612-1.383-8.956-4.082l-63.932-73.635   c-4.269-4.916-3.761-12.342,1.107-16.643c0.027-0.025,0.044-0.055,0.072-0.078c4.945-4.293,12.43-3.762,16.721,1.182l63.932,73.635   C234.396,534.709,233.867,542.195,228.925,546.486z"
+    />
+	<path
+        fill="#A8A7A6"
+        d="M688.559,238.951c-7.137-9.029-17.699-14.307-29.744-14.859c-16.096-0.732-34.307,6.84-49.793,20.553   c3.654,3.566,7.199,7.047,10.635,10.439c20.047-17.299,44.982-22.506,57.275-6.947c12.885,16.313-11.723,27.182-31.371,32.943   c4.338,4.422,8.238,8.436,11.686,12.002c15.662-5.443,31.355-13.961,36.355-26.945   C695.613,260.916,697.633,250.441,688.559,238.951z"
+    />
+	<g
+      >
+		<linearGradient
+          id="SVGID_1_"
+          gradientUnits="userSpaceOnUse"
+          x1="609.0215"
+          y1="272.5859"
+          x2="695.3173"
+          y2="272.5859"
+        >
+			<stop
+            offset="0"
+            style="stop-color:#FFFFFF"
+        />
+			<stop
+            offset="1"
+            style="stop-color:#808080"
+        />
+		</linearGradient
+      >
+		<path
+          opacity="0.25"
+          fill="url(#SVGID_1_)"
+          d="M680.111,259.75c-2.76,9.998-20.008,17.064-34.551,21.33    c1.473,1.502,2.877,2.938,4.248,4.342C665.953,280.221,683.342,271.721,680.111,259.75z"
+      />
+		<linearGradient
+          id="SVGID_2_"
+          gradientUnits="userSpaceOnUse"
+          x1="609.0215"
+          y1="241.9297"
+          x2="695.3174"
+          y2="241.9297"
+        >
+			<stop
+            offset="0"
+            style="stop-color:#FFFFFF"
+        />
+			<stop
+            offset="1"
+            style="stop-color:#808080"
+        />
+		</linearGradient
+      >
+		<path
+          opacity="0.25"
+          fill="url(#SVGID_2_)"
+          d="M658.814,229.742c12.045,0.553,22.607,5.83,29.744,14.859    c4.309,5.455,6.1,10.672,6.594,15.215c0.637-5.561-0.361-12.973-6.594-20.865c-7.137-9.029-17.699-14.307-29.744-14.859    c-16.096-0.732-34.307,6.84-49.793,20.553c1.061,1.035,2.045,2.01,3.088,3.031C626.893,235.625,643.775,229.057,658.814,229.742z"
+      />
+		<linearGradient
+          id="SVGID_3_"
+          gradientUnits="userSpaceOnUse"
+          x1="609.0215"
+          y1="261.3877"
+          x2="695.3173"
+          y2="261.3877"
+        >
+			<stop
+            offset="0"
+            style="stop-color:#FFFFFF"
+        />
+			<stop
+            offset="1"
+            style="stop-color:#B2B2B2"
+        />
+		</linearGradient
+      >
+		<path
+          opacity="0.25"
+          fill="url(#SVGID_3_)"
+          d="M693.602,266.137c0.631-1.635,1.26-3.785,1.551-6.32    c-0.494-4.543-2.285-9.76-6.594-15.215c-7.137-9.029-17.699-14.307-29.744-14.859c-15.039-0.686-31.922,5.883-46.705,17.934    c2.549,2.496,5.109,5.002,7.547,7.408c20.047-17.299,44.982-22.506,57.275-6.947c3.348,4.238,4.146,8.104,3.18,11.613    c3.23,11.971-14.158,20.471-30.303,25.672c2.668,2.736,5.158,5.303,7.438,7.66C672.908,287.639,688.602,279.121,693.602,266.137z"
+      />
+		<linearGradient
+          id="SVGID_4_"
+          gradientUnits="userSpaceOnUse"
+          x1="609.0215"
+          y1="261.3877"
+          x2="695.3173"
+          y2="261.3877"
+        >
+			<stop
+            offset="0"
+            style="stop-color:#FFFFFF"
+        />
+			<stop
+            offset="1"
+            style="stop-color:#B2B2B2"
+        />
+		</linearGradient
+      >
+		<path
+          opacity="0.25"
+          fill="url(#SVGID_4_)"
+          d="M693.602,266.137c0.631-1.635,1.26-3.785,1.551-6.32    c-0.494-4.543-2.285-9.76-6.594-15.215c-7.137-9.029-17.699-14.307-29.744-14.859c-15.039-0.686-31.922,5.883-46.705,17.934    c2.549,2.496,5.109,5.002,7.547,7.408c20.047-17.299,44.982-22.506,57.275-6.947c3.348,4.238,4.146,8.104,3.18,11.613    c3.23,11.971-14.158,20.471-30.303,25.672c2.668,2.736,5.158,5.303,7.438,7.66C672.908,287.639,688.602,279.121,693.602,266.137z"
+      />
+	</g
+    >
+	<path
+        fill="#A6A5A5"
+        d="M456.432,443.859c-1.301-0.742-6.242,2.287-13.771,8.033c7.643,9.613,16.461,19.93,26.967,28.803   C464.984,462.727,461.479,446.742,456.432,443.859z"
+    />
+	<path
+        fill="#DFDFDE"
+        d="M676.426,314.291c-0.799-1.293-1.693-2.514-2.641-3.691c-0.643-0.801-1.313-1.58-2.025-2.326   c-0.133-0.139-0.242-0.26-0.387-0.41c-27.963-28.502-104.199-15.375-162.305,60.414l0,0   c-28.342,60.734-40.492,43.189-55.338,33.113L212.141,601.77l33.741,29.691c0,0,149.564-143.535,196.778-179.568   c7.529-5.746,12.471-8.775,13.771-8.033c5.047,2.883,8.553,18.867,13.195,36.836c24.986,21.094,59.566,33.926,110.971,9.051   C664.277,449.254,698.9,350.732,676.426,314.291z"
+    />
+	<linearGradient
+        id="SVGID_5_"
+        gradientUnits="userSpaceOnUse"
+        x1="212.1406"
+        y1="462.7188"
+        x2="683.123"
+        y2="462.7188"
+      >
+		<stop
+          offset="0"
+          style="stop-color:#FFFFFF"
+      />
+		<stop
+          offset="0.0977"
+          style="stop-color:#CCCCCC"
+      />
+		<stop
+          offset="0.6092"
+          style="stop-color:#FFFFFF"
+      />
+		<stop
+          offset="1"
+          style="stop-color:#B2B2B2"
+      />
+	</linearGradient
+    >
+	<path
+        opacity="0.5"
+        fill="url(#SVGID_5_)"
+        d="M676.426,314.291c-0.799-1.293-1.693-2.514-2.641-3.691   c-0.643-0.801-1.313-1.58-2.025-2.326c-0.133-0.139-0.242-0.26-0.387-0.41c-27.963-28.502-104.199-15.375-162.305,60.414l0,0   c-28.342,60.734-40.492,43.189-55.338,33.113L212.141,601.77l33.741,29.691c0,0,149.564-143.535,196.778-179.568   c7.529-5.746,12.471-8.775,13.771-8.033c5.047,2.883,8.553,18.867,13.195,36.836c24.986,21.094,59.566,33.926,110.971,9.051   C664.277,449.254,698.9,350.732,676.426,314.291z"
+    />
+	<path
+        fill="#A6A5A5"
+        d="M657.246,293.082c-3.447-3.566-7.348-7.58-11.686-12.002c-7.492-7.637-16.229-16.436-25.904-25.996   c-3.436-3.393-6.98-6.873-10.635-10.439c-17.471-17.041-37.33-35.859-58.115-54.523c-66.135-59.387-148.465,18.895-166.009,53.986   l124.171,124.17l0,0c58.105-75.789,134.342-88.916,162.305-60.414C668.67,304.996,663.811,299.879,657.246,293.082z"
+    />
+	<linearGradient
+        id="SVGID_6_"
+        gradientUnits="userSpaceOnUse"
+        x1="471.1396"
+        y1="331.6494"
+        x2="581.1702"
+        y2="217.7094"
+      >
+		<stop
+          offset="0"
+          style="stop-color:#FFFFFF"
+      />
+		<stop
+          offset="0.2701"
+          style="stop-color:#CCCCCC"
+      />
+		<stop
+          offset="0.6092"
+          style="stop-color:#FFFFFF"
+      />
+		<stop
+          offset="1"
+          style="stop-color:#B2B2B2"
+      />
+	</linearGradient
+    >
+	<path
+        opacity="0.5"
+        fill="url(#SVGID_6_)"
+        d="M657.246,293.082c-3.447-3.566-7.348-7.58-11.686-12.002   c-7.492-7.637-16.229-16.436-25.904-25.996c-3.436-3.393-6.98-6.873-10.635-10.439c-17.471-17.041-37.33-35.859-58.115-54.523   c-66.135-59.387-148.465,18.895-166.009,53.986l124.171,124.17l0,0c58.105-75.789,134.342-88.916,162.305-60.414   C668.67,304.996,663.811,299.879,657.246,293.082z"
+    />
+	<path
+        fill="#D7D6D6"
+        d="M166.172,456.133c-4.291-4.943-11.775-5.475-16.721-1.182c-0.028,0.023-0.045,0.053-0.072,0.078   c4.068-0.848,8.452,0.42,11.369,3.779l63.932,73.635c4.279,4.928,3.762,12.383-1.142,16.68c1.93-0.395,3.792-1.254,5.387-2.637   c4.942-4.291,5.471-11.777,1.179-16.719L166.172,456.133z"
+    />
+	<path
+        fill="#7E7E7E"
+        d="M224.68,532.443l-63.932-73.635c-2.917-3.359-7.301-4.627-11.369-3.779   c-4.868,4.301-5.376,11.727-1.107,16.643l63.932,73.635c2.344,2.699,5.64,4.082,8.956,4.082c0.797,0,1.592-0.104,2.379-0.266   C228.441,544.826,228.959,537.371,224.68,532.443z"
+    />
+</g
+  >
+<metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ><dc:title
+          >Football referee's whistle</dc:title
+        ><dc:date
+          >2014-06-12T08:19:04</dc:date
+        ><dc:description
+          >Football referee's whistle</dc:description
+        ><dc:source
+          >https://openclipart.org/detail/194160/football-referees-whistle-by-casino-194160</dc:source
+        ><dc:creator
+          ><cc:Agent
+            ><dc:title
+              >casino</dc:title
+            ></cc:Agent
+          ></dc:creator
+        ><dc:subject
+          ><rdf:Bag
+            ><rdf:li
+              >Football referee's whistle</rdf:li
+            ></rdf:Bag
+          ></dc:subject
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>
