@@ -1,22 +1,16 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "contact@troupedumalin.net";
-    $email_subject = "New form submissions";
+    $email_subject = "Nouveau message depuis le formulaire.";
 
-    // validation expected data exists
-    if (
-        !isset($_POST['Name']) ||
-        !isset($_POST['Email']) ||
-        !isset($_POST['Message'])
-    ) {
+    if (!isset($_POST['Name']) || !isset($_POST['Email']) ||!isset($_POST['Message'])) {
         problem('Il semblerait qu\'une erreur s\'est produite lors de l\'envoi.');
     }
 
-    $name = $_POST['Name']; // required
-    $email = $_POST['Email']; // required
-    $message = $_POST['Message']; // required
+    $name = $_POST['Name'];
+    $email = $_POST['Email'];
+    $message = $_POST['Message'];
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -41,8 +35,7 @@ if (isset($_POST['Email'])) {
 
     $email_message = "Mail envoyé depuis troupedumalin.net.\n\n";
 
-    function clean_string($string)
-    {
+    function clean_string($string) {
         $bad = array("content-type", "bcc:", "to:", "cc:", "href");
         return str_replace($bad, "", $string);
     }
@@ -57,9 +50,6 @@ if (isset($_POST['Email'])) {
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 ?>
-
-    <!-- include your success message below -->
-
     Votre mail nous est bien parvenu.
 
 <?php
