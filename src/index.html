@@ -1,291 +1,309 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Troupe du Malin</title>
+		<link rel="icon" href="assets/logos/malin.png" />
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<link rel="stylesheet" type="text/css" href="styles/dates.css" />
+		<link rel="stylesheet" type="text/css" href="styles/navbar.css" />
+		<link rel="stylesheet" type="text/css" href="styles/joueurs.css" />
+		<link rel="stylesheet" type="text/css" href="styles/contact.css" />
+		<link rel="stylesheet" type="text/css" href="styles/footer.css" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Troupe du Malin</title>
-    <link rel="icon" href="assets/logos/malin.png" />
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/dates.css">
-    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
-    <link rel="stylesheet" type="text/css" href="styles/joueurs.css">
-    <link rel="stylesheet" type="text/css" href="styles/contact.css">
-    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+		<!-- Font import -->
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Barlow+Condensed%7CDosis&display=swap" />
+	</head>
 
-    <!-- Font import -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Barlow+Condensed%7CDosis&display=swap">
-</head>
+	<body>
+		<div class="logo" id="top"><img src="assets/logos/troupedumalin.png" alt="Troupe du Malin" title="La Troupe du Malin" /></div>
+		<nav id="sticky">
+			<img id="navLogo" class="hide" src="assets/logos/malin.png" alt="Troupe du Malin" title="La Troupe du Malin" />
+			<div class="mainNav mobileHide">
+				<a href="#dates">DATES</a>
+				<a href="#historique">HISTORIQUE</a>
+				<a href="#reservation">RÉSERVATION</a>
+				<a href="#joueurs">JOUEURS</a>
+				<a href="#contact">CONTACT</a>
+			</div>
+			<div class="rightNav laptopHide">
+				<a href="#top">HAUT DE PAGE</a>
+				<div class="reseaux">
+					<a href="https://fr-fr.facebook.com/La-Troupe-du-Malin-186799398038920/" target="_blank"
+						><img src="assets/reseaux/facebook.png" alt="Facebook" title="Facebook"
+					/></a>
+					<a href="https://www.instagram.com/latroupedumalin/" target="_blank"
+						><img src="assets/reseaux/instagram.png" alt="Instragram" title="Instragram"
+					/></a>
+				</div>
+			</div>
+		</nav>
+		<script>
+			function topFunction() {
+				document.body.scrollTop = 0
+				document.documentElement.scrollTop = 0
+			}
 
-<body>
-    <div class="logo" id="top"><img src="assets/logos/troupedumalin.png" alt="Troupe du Malin" title="La Troupe du Malin" /></div>
-    <nav id="sticky">
-        <div>
-            <img id="navLogo" class="hide" src="assets/logos/malin.png" alt="Troupe du Malin" title="La Troupe du Malin" />
-        </div>
+			window.onscroll = function () {
+				myFunction()
+			}
 
-        <div class="mobileHide">
-            <a href="#dates">DATES</a>
-            <a href="#historique">HISTORIQUE</a>
-            <a href="#reservation">RÉSERVATION</a>
-            <a href="#joueurs">JOUEURS</a>
-            <a href="#contact">CONTACT</a>
-        </div>
-        <div class="laptopHide">
-            <a href="#top">HAUT DE PAGE</a>
-            <div class="reseaux">
-                <a href="https://fr-fr.facebook.com/La-Troupe-du-Malin-186799398038920/" target="_blank"><img src="assets/reseaux/facebook.png" alt="Facebook" title="Facebook" /></a>
-                <a href="https://www.instagram.com/latroupedumalin/" target="_blank"><img src="assets/reseaux/instagram.png" alt="Instragram" title="Instragram" /></a>
-            </div>
-        </div>
-    </nav>
-    <script>
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
+			var header = document.getElementById('sticky')
+			var navLogo = document.getElementById('navLogo')
+			var sticky = header.offsetTop
 
-        window.onscroll = function() {
-            myFunction()
-        };
+			function myFunction() {
+				if (window.pageYOffset > sticky) {
+					header.classList.add('sticky')
+					navLogo.classList.remove('hide')
+				} else {
+					header.classList.remove('sticky')
+					navLogo.classList.add('hide')
+				}
+			}
+		</script>
 
-        var header = document.getElementById('sticky');
-        var navlgo = document.getElementById("navLogo");
-        var sticky = header.offsetTop;
+		<div id="dates" class="content">
+			<section>
+				<h2>Nos 3 prochaines dates</h2>
+				<div class="triptyque">
+					<div class="date">
+						<div class="jour">
+							<img src="assets/calendrier.svg" alt="Date" />
+							24 octobre
+						</div>
+						<div class="heure">
+							<img src="assets/heure.svg" alt="Heure" />
+							20h00 (1h30)
+						</div>
+						<div class="lieu">
+							<img src="assets/lieu.svg" alt="Lieu" />
+							Théâtre de la Gobinière
+						</div>
+						<div class="interagir">
+							<a class="desactive">Réservation à venir...</a>
+						</div>
+					</div>
+					<div class="date">
+						<div class="jour">
+							<img src="assets/calendrier.svg" alt="Date" />
+							21 novembre
+						</div>
+						<div class="heure">
+							<img src="assets/heure.svg" alt="Heure" />
+							20h00 (1h30)
+						</div>
+						<div class="lieu">
+							<img src="assets/lieu.svg" alt="Lieu" />
+							Théatre 100 Noms
+						</div>
+						<div class="interagir">
+							<a class="desactive">Réservation à venir...</a>
+						</div>
+					</div>
+					<div class="date">
+						<div class="jour">
+							<img src="assets/calendrier.svg" alt="Date" />
+							19 décembre
+						</div>
+						<div class="heure">
+							<img src="assets/heure.svg" alt="Heure" />
+							20h00 (1h30)
+						</div>
+						<div class="lieu">
+							<img src="assets/lieu.svg" alt="Lieu" />
+							Théâtre de la Gobinière
+						</div>
+						<div class="interagir">
+							<a class="desactive">Réservation à venir...</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-                navlgo.classList.add("logoNav");
-            } else {
-                header.classList.remove("sticky");
-                navlgo.classList.remove("logoNav");
-            }
-        }
-    </script>
+			<hr id="historique" class="hr100" />
 
-    <div id="dates" class=content>
-        <section>
-            <h2>Nos 3 prochaines dates</h2>
-            <div class="triptyque">
-                <div class="date">
-                    <div class="jour">
-                        <img src="assets/calendrier.svg" alt="Date">
-                        24 octobre
-                    </div>
-                    <div class="heure">
-                        <img src="assets/heure.svg" alt="Heure">
-                        20h00 (1h30)
-                    </div>
-                    <div class="lieu">
-                        <img src="assets/lieu.svg" alt="Lieu">
-                        Théâtre de la Gobinière
-                    </div>
-                    <div class="interagir">
-                        <a class="desactive">Réservation à venir...</a>
-                    </div>
-                </div>
-                <div class="date">
-                    <div class="jour">
-                        <img src="assets/calendrier.svg" alt="Date">
-                        21 novembre
-                    </div>
-                    <div class="heure">
-                        <img src="assets/heure.svg" alt="Heure">
-                        20h00 (1h30)
-                    </div>
-                    <div class="lieu">
-                        <img src="assets/lieu.svg" alt="Lieu">
-                        Théatre 100 Noms
-                    </div>
-                    <div class="interagir">
-                        <a class="desactive">Réservation à venir...</a>
-                    </div>
-                </div>
-                <div class="date">
-                    <div class="jour">
-                        <img src="assets/calendrier.svg" alt="Date">
-                        19 décembre
-                    </div>
-                    <div class="heure">
-                        <img src="assets/heure.svg" alt="Heure">
-                        20h00 (1h30)
-                    </div>
-                    <div class="lieu">
-                        <img src="assets/lieu.svg" alt="Lieu">
-                        Théâtre de la Gobinière
-                    </div>
-                    <div class="interagir">
-                        <a class="desactive">Réservation à venir...</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+			<section>
+				<h2>LA TROUPE DU MALIN</h2>
+				<div class="triptyque">
+					<div class="txt">
+						<p>
+							La Troupe du Malin est la petite soeur du Mouvement Amateur Libre d'Improvisation Nantais, créé en 1994 par de jeunes gens
+							merveilleux et pleins d'entrain. Près de 10 ans d'activité plus tard, de nouveaux membres, de nouvelles idées et de nouvelles envies
+							nous ont incités à créer une nouvelle association.
+						</p>
+					</div>
+					<div class="txt">
+						<p>
+							La Troupe du Malin est née avec l'année 2003. Son but est d'apporter l'énergie improvisatrice aux plus nombreux et de contribuer à
+							la vie culturelle nantaise en jouant dans les bars et en allant au contact avec le public. C'est une troupe d'impro amateure, active
+							pour le public et pour le plaisir du jeu.
+						</p>
+					</div>
+					<div class="txt">
+						<p>
+							Pourtant chargée d'histoire, la Troupe du Malin ne cesse de se renouveller. Aujourd'hui, c'est une troupe jeune et fougueuse qui se
+							présente à vous, animée par la même furieuse envie d'en découdre avec les thèmes. Plus qu'une passion, l'improvisation est l'élement
+							qui fédère et conjugue nos imaginaires.
+						</p>
+					</div>
+				</div>
+				<hr class="mobileHide" />
+				<div class="triptyque" class="mobileHide">
+					<div class="mobileHide img"><img src="assets/img2.jpeg" alt="troupe" /></div>
+					<div class="mobileHide img"><img src="assets/img1.jpeg" alt="theatre" /></div>
+					<div class="mobileHide img"><img src="assets/img3.jpeg" alt="troupe" /></div>
+				</div>
+			</section>
 
-        <hr id=historique class=hr100>
+			<hr id="reservation" class="hr100" />
 
-        <section>
-            <h2>LA TROUPE DU MALIN</h2>
-            <div class="triptyque">
-                <div class="txt">
-                    <p>La Troupe du Malin est la petite soeur du Mouvement Amateur Libre d'Improvisation Nantais, créé
-                        en 1994 par de jeunes gens merveilleux et pleins d'entrain. Près de 10 ans d'activité plus tard,
-                        de nouveaux membres, de nouvelles idées et de nouvelles envies nous ont incités à créer une
-                        nouvelle association.</p>
-                </div>
-                <div class="txt">
-                    <p>La Troupe du Malin est née avec l'année 2003. Son but est d'apporter l'énergie improvisatrice
-                        aux plus nombreux et de contribuer à la vie culturelle nantaise en jouant dans les bars et
-                        en allant au contact avec le public. C'est une troupe d'impro amateure, active pour le public
-                        et pour le plaisir du jeu.</p>
-                </div>
-                <div class="txt">
-                    <p>Pourtant chargée d'histoire, la Troupe du Malin ne cesse de se renouveller. Aujourd'hui, c'est
-                        une troupe jeune et fougueuse qui se présente à vous, animée par la même furieuse envie d'en
-                        découdre avec les thèmes. Plus qu'une passion, l'improvisation est l'élement qui fédère et
-                        conjugue nos imaginaires.</p>
-                </div>
-            </div>
-            <hr class="mobileHide">
-            <div class="triptyque" class="mobileHide">
-                <div class="mobileHide img"><img src="assets/img2.jpeg" alt="troupe" /></div>
-                <div class="mobileHide img"><img src="assets/img1.jpeg" alt="theatre" /></div>
-                <div class="mobileHide img"><img src="assets/img3.jpeg" alt="troupe" /></div>
-            </div>
-        </section>
+			<section>
+				<h2>Réservation</h2>
+				<div id="resaFrame">
+					<a
+						title="Vente de billets en ligne"
+						href="https://www.billetweb.fr/shop.php?event=troupe-du-malin-vs-lolita-strasbourg1"
+						class="shop_frame"
+						target="_blank"
+						data-src="https://www.billetweb.fr/shop.php?event=troupe-du-malin-vs-lolita-strasbourg1"
+						data-max-width="100%"
+						data-initial-height="600"
+						data-scrolling="no"
+						data-id="troupe-du-malin-vs-lolita-strasbourg1"
+						data-resize="1"
+						>Vente de billets en ligne</a
+					>
+					<script src="https://www.billetweb.fr/js/export.js"></script>
+				</div>
+			</section>
 
-        <hr id=reservation class=hr100>
+			<hr id="joueurs" />
 
-        <section>
-            <h2>Réservation</h2>
-            <div id=resaFrame>
-                <a title="Vente de billets en ligne" href="https://www.billetweb.fr/shop.php?event=troupe-du-malin-vs-lolita-strasbourg1" class="shop_frame" target="_blank" data-src="https://www.billetweb.fr/shop.php?event=troupe-du-malin-vs-lolita-strasbourg1" data-max-width="100%" data-initial-height="600" data-scrolling="no" data-id="troupe-du-malin-vs-lolita-strasbourg1" data-resize=1>Vente de billets en ligne</a>
-                <script src="https://www.billetweb.fr/js/export.js"></script>
-            </div>
-        </section>
+			<section id="damier">
+				<h2>Joueurs</h2>
+				<div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Alexis Robin" title="Alexis Robin" />
+						<div class="nom">
+							<p>Alexis Robin</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Anne-Laure Chauvet" title="Anne-Laure Chauvet" />
+						<div class="nom">
+							<p>Anne-Laure Chauvet</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Aurélie Bapst" title="Aurélie Bapst" />
+						<div class="nom">
+							<p>Aurélie Bapst</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Benjamin Lavève" title="Benjamin Lavève" />
+						<div class="nom">
+							<p>Benjamin Lavève</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Clémence Herblot" title="Clémence Herblot" />
+						<div class="nom">
+							<p>Clémence Herblot</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Florent Ouklaïd" title="Florent Ouklaïd" />
+						<div class="nom">
+							<p>Florent Ouklaïd</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Juan Pablo Mi&ntilde;o" title="Juan Pablo Mi&ntilde;o" />
+						<div class="nom">
+							<p>Juan Pablo Mi&ntilde;o</p>
+							<i>Coach</i><br />
+							<img id="coach" src="assets/joueurs/coach.svg" alt="Coach de la troupe" title="Coach de la troupe" />
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Julia Wolf" title="Julia Wolf" />
+						<div class="nom">
+							<p>Julia Wolf</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Lucas Prost" title="Lucas Prost" />
+						<div class="nom">
+							<p>Lucas Prost</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Matthieu Lenoir" title="Matthieu Lenoir" />
+						<div class="nom">
+							<p>Matthieu Lenoir</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Pomme Ballejos" title="Pomme Ballejos" />
+						<div class="nom">
+							<p>Pomme Ballejos</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Rémi Moulin" title="Rémi Moulin" />
+						<div class="nom">
+							<p>Rémi Moulin</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Stéphane Evans" title="Stéphane Evans" />
+						<div class="nom">
+							<p>Stéphane Evans</p>
+						</div>
+					</div>
+					<div class="joueur">
+						<img src=assets/joueurs/joueur.png alt="Thomas Jaglin" title="Thomas Jaglin" />
+						<div class="nom">
+							<p>Thomas Jaglin</p>
+							<i>Président</i><br />
+							<img id="president" src="assets/joueurs/president.svg" alt="Président de la troupe" title="Président de la troupe" />
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <hr id=joueurs>
+			<hr id="contact" />
 
-        <section id="damier">
-            <h2>Joueurs</h2>
-            <div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Alexis Robin" title="Alexis Robin" />
-                    <div class="nom">
-                        <p>Alexis Robin</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Anne-Laure Chauvet" title="Anne-Laure Chauvet" />
-                    <div class="nom">
-                        <p>Anne-Laure Chauvet</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Aurélie Bapst" title="Aurélie Bapst" />
-                    <div class="nom">
-                        <p>Aurélie Bapst</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Benjamin Lavève" title="Benjamin Lavève" />
-                    <div class="nom">
-                        <p>Benjamin Lavève</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Clémence Herblot" title="Clémence Herblot" />
-                    <div class="nom">
-                        <p>Clémence Herblot</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Florent Ouklaïd" title="Florent Ouklaïd" />
-                    <div class="nom">
-                        <p>Florent Ouklaïd</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Juan Pablo Mi&ntilde;o" title="Juan Pablo Mi&ntilde;o" />
-                    <div class="nom">
-                        <p>Juan Pablo Mi&ntilde;o</p>
-                        <i>Coach</i><br>
-                        <img id="coach" src="assets/joueurs/coach.svg" alt="Coach de la troupe" title="Coach de la troupe">
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Julia Wolf" title="Julia Wolf" />
-                    <div class="nom">
-                        <p>Julia Wolf</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Lucas Prost" title="Lucas Prost" />
-                    <div class="nom">
-                        <p>Lucas Prost</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Matthieu Lenoir" title="Matthieu Lenoir" />
-                    <div class="nom">
-                        <p>Matthieu Lenoir</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Pomme Ballejos" title="Pomme Ballejos" />
-                    <div class="nom">
-                        <p>Pomme Ballejos</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Rémi Moulin" title="Rémi Moulin" />
-                    <div class="nom">
-                        <p>Rémi Moulin</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Stéphane Evans" title="Stéphane Evans" />
-                    <div class="nom">
-                        <p>Stéphane Evans</p>
-                    </div>
-                </div>
-                <div class="joueur">
-                    <img src=assets/joueurs/joueur.png alt="Thomas Jaglin" title="Thomas Jaglin" />
-                    <div class="nom">
-                        <p>Thomas Jaglin</p>
-                        <i>Président</i><br>
-                        <img id="president" src="assets/joueurs/president.svg" alt="Président de la troupe" title="Président de la troupe">
-                    </div>
-                </div>
-            </div>
-        </section>
+			<section>
+				<div>
+					<h2>Contact</h2>
+					<form method="post" action="scripts/mail.php">
+						<label for="nom">Nom :</label>
+						<input type="text" id="nom" name="Name" placeholder="Votre nom" required />
+						<label for="mail">Adresse mél:</label>
+						<input type="email" id="mail" name="Email" placeholder="votre.adresse@domaine.fr" required />
+						<label for="message">Message :</label>
+						<textarea id="message" name="Message" placeholder="Écrivez-nous..." required></textarea>
+						<div><input type="submit" value="Envoyer" /></div>
+					</form>
+				</div>
+			</section>
+		</div>
 
-        <hr id="contact">
-
-        <section>
-            <div>
-                <h2>Contact</h2>
-                <form method="post" action="scripts/mail.php">
-                    <label for="nom">Nom :</label>
-                    <input type="text" id="nom" name="Name" placeholder="Votre nom" required>
-                    <label for="mail">Adresse mél:</label>
-                    <input type="email" id="mail" name="Email" placeholder="votre.adresse@domaine.fr" required>
-                    <label for="message">Message :</label>
-                    <textarea id="message" name="Message" placeholder="Écrivez-nous..." required></textarea>
-                    <div><input type="submit" value="Envoyer"></div>
-                </form>
-            </div>
-        </section>
-    </div>
-
-    <footer>
-        <div>© La Troupe du Malin 2020</div>
-        <div class="reseaux">
-            <a href="https://fr-fr.facebook.com/La-Troupe-du-Malin-186799398038920/" target="_blank"><img src="assets/reseaux/facebook.png" alt="Facebook" title="Facebook" /></a>
-            <a href="https://www.instagram.com/latroupedumalin/" target="_blank"><img src="assets/reseaux/instagram.png" alt="Instragram" title="Instragram" /></a>
-        </div>
-        <div class="mobileHide">Troupe d'improvisation amateure</div>
-    </footer>
-</body>
-
+		<footer>
+			<div>© La Troupe du Malin 2020</div>
+			<div class="reseaux">
+				<a href="https://fr-fr.facebook.com/La-Troupe-du-Malin-186799398038920/" target="_blank"
+					><img src="assets/reseaux/facebook.png" alt="Facebook" title="Facebook"
+				/></a>
+				<a href="https://www.instagram.com/latroupedumalin/" target="_blank"
+					><img src="assets/reseaux/instagram.png" alt="Instragram" title="Instragram"
+				/></a>
+			</div>
+			<div class="mobileHide">Troupe d'improvisation amateure</div>
+		</footer>
+	</body>
 </html>
