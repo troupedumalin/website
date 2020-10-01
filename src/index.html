@@ -14,11 +14,17 @@
 
 		<!-- Font import -->
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Barlow+Condensed%7CDosis&display=swap" />
-	</head>
 
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+		<script type="text/javascript" src="./scripts/contact.js"></script>
+		<script type="text/javascript" src="./scripts/scroll.js"></script>
+		<script type="text/javascript">
+			emailjs.init('user_P0fG0CRoH8U56F7oMcTei')
+		</script>
+	</head>
 	<body>
 		<div class="logo" id="top"><img src="assets/logos/troupedumalin.png" alt="Troupe du Malin" title="La Troupe du Malin" /></div>
-		<nav id="sticky">
+		<nav id="nav">
 			<img id="navLogo" class="hide" src="assets/logos/malin.png" alt="Troupe du Malin" title="La Troupe du Malin" />
 			<div class="mainNav mobileHide">
 				<a href="#dates">DATES</a>
@@ -39,31 +45,6 @@
 				</div>
 			</div>
 		</nav>
-		<script>
-			function topFunction() {
-				document.body.scrollTop = 0
-				document.documentElement.scrollTop = 0
-			}
-
-			window.onscroll = function () {
-				myFunction()
-			}
-
-			var header = document.getElementById('sticky')
-			var navLogo = document.getElementById('navLogo')
-			var sticky = header.offsetTop
-
-			function myFunction() {
-				if (window.pageYOffset > sticky) {
-					header.classList.add('sticky')
-					navLogo.classList.remove('hide')
-				} else {
-					header.classList.remove('sticky')
-					navLogo.classList.add('hide')
-				}
-			}
-		</script>
-
 		<div id="dates" class="content">
 			<section>
 				<h2>Nos 3 prochaines dates</h2>
@@ -280,14 +261,14 @@
 			<section>
 				<div>
 					<h2>Contact</h2>
-					<form method="post" action="scripts/mail.php">
+					<form id="contact_form">
 						<label for="nom">Nom :</label>
-						<input type="text" id="nom" name="Name" placeholder="Votre nom" required />
+						<input type="text" name="from_name" id="from_name" placeholder="Votre nom" required />
 						<label for="mail">Adresse mél:</label>
-						<input type="email" id="mail" name="Email" placeholder="votre.adresse@domaine.fr" required />
+						<input type="email" name="reply_to" id="reply_to" placeholder="votre.adresse@domaine.fr" required />
 						<label for="message">Message :</label>
-						<textarea id="message" name="Message" placeholder="Écrivez-nous..." required></textarea>
-						<div><input type="submit" value="Envoyer" /></div>
+						<textarea name="message" id="message" placeholder="Écrivez-nous..." required></textarea>
+						<div><input id="contact_form_submit_button" type="submit" value="Envoyer" /></div>
 					</form>
 				</div>
 			</section>
