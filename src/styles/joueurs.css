@@ -1,23 +1,25 @@
-
- /*--------------------------*\
+/*--------------------------*\
 |      Grille des joueurs      |
  \*--------------------------*/
 
 #damier h2 {
-    text-align: center;
-    padding-bottom: 10px;
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 #damier > div {
-    display: grid;
-    grid-template-rows: repeat(4, auto);
-    grid-template-columns: repeat(4, auto);
-    justify-content: center;
+	display: grid;
+	grid-template-rows: repeat(4, auto);
+	grid-template-columns: repeat(4, auto);
+	justify-content: center;
 }
 
-.joueur > img, .joueur, .nom {
-    width: 150px;
-    height: 150px;
+.joueur > img,
+.joueur,
+.nom {
+	object-fit: cover;
+	height: 150px;
+	width: 150px;
 }
 
 .joueur {
@@ -40,7 +42,7 @@
 	background: rgba(226, 62, 2, 0.5);
 	color: #fff;
 
-	transition: opacity .3s, visibility .3s;
+	transition: opacity 0.3s, visibility 0.3s;
 	visibility: hidden;
 	opacity: 0;
 
@@ -66,7 +68,7 @@ i {
 
 #president {
 	padding-top: 10%;
-    padding-left: 10px;
+	padding-left: 10px;
 	width: 35%;
 	height: 35%;
 }
@@ -74,9 +76,9 @@ i {
 /* Responsivité */
 
 @media screen and (max-width: 710px) {
-    #damier > div {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+	#damier > div {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
 }
